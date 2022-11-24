@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;1,700&display=swap');
 @import './blocks.css';
 
 :root {
@@ -9,8 +9,8 @@
     /* neutral */
     --White: hsl(0, 0%, 100%);
     --Dark-desaturated-blue: hsl(236, 21%, 26%);
-    --Very-dark-blue: hsl(235, 16%, 14%);
-    --mostly-black-blue: hsl(234, 17%, 12%);
+    --Very-dark-blue: hsl(235, 15%, 14%);
+    --mostly-black-blue: hsl(235, 18%, 12%);
 }
 
 * {
@@ -26,8 +26,10 @@ html {
 body {
     font-family: 'Red Hat Text', sans-serif;
     min-height: 100vh;
-    display: flex;    
-    flex-direction: column;
+    /* display: flex;    
+    flex-direction: column; */
+    display: grid;
+    place-items: center;
     color: var(--White);
     /* background-color: var(--mostly-black-blue); */
     /* background-image: url('../images/bg-stars.svg'),

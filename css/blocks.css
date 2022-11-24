@@ -1,22 +1,45 @@
 main {
     display: grid;
     place-items: center;
+    margin: 0 1rem;
     text-transform: uppercase;
 }
+    main h2 {
+        text-align: center;
+        font-size: 1.25rem;
+        letter-spacing: 7px;
+    }
+
     main section {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
+        gap: 1rem;
     }
-        section > div {
+        section .card {
             display: grid;
             place-items: center;
+        }
+        .card .numb {
+            padding: 1rem;
+            background: linear-gradient(to bottom, 
+                var(--Very-dark-blue) 50%, 
+                var(--Dark-desaturated-blue) 50%);
+        }
+        .numb span {
+            font-size: 2.5rem;
+        }
+        .card p {
+            color: var(--Grayish-blue);
+            font-size: .5rem;
+            letter-spacing: 3px;
+            margin-top: .5rem;
         }
 
 footer {
     display: grid;
     place-items: center;
     margin-top: auto;
+    padding: .5rem;
 }
     footer .links {
         display: flex;
