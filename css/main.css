@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+@import './blocks.css';
 
 :root {
     /* colors */
@@ -27,33 +28,17 @@ body {
     min-height: 100vh;
     display: flex;    
     flex-direction: column;
+    color: var(--White);
+    /* background-color: var(--mostly-black-blue); */
+    /* background-image: url('../images/bg-stars.svg'),
+                      url('../images/pattern-hills.svg'); */
+    background: url('../images/bg-stars.svg') center center no-repeat, 
+                url('../images/pattern-hills.svg') right bottom no-repeat,
+                var(--mostly-black-blue);
+                background-size: cover cover;
 }
 
 .hidden {
     position: absolute;
     left: -100rem;
 }
-
-main {
-    display: grid;
-    place-items: center;
-}
-    main section {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
-    }
-        section > div {
-            display: grid;
-            place-items: center;
-        }
-
-footer {
-    display: grid;
-    place-items: center;
-    margin-top: auto;
-}
-    footer .links {
-        display: flex;
-        gap: 3rem;
-    }

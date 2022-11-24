@@ -1,0 +1,24 @@
+main {
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+}
+    main section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+        section > div {
+            display: grid;
+            place-items: center;
+        }
+
+footer {
+    display: grid;
+    place-items: center;
+    margin-top: auto;
+}
+    footer .links {
+        display: flex;
+        gap: 3rem;
+    }
