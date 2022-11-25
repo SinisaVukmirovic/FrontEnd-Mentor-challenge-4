@@ -34,10 +34,21 @@ body {
     /* background-color: var(--mostly-black-blue); */
     /* background-image: url('../images/bg-stars.svg'),
                       url('../images/pattern-hills.svg'); */
-    background: url('../images/bg-stars.svg') center center no-repeat, 
+
+    /* background: url('../images/bg-stars.svg') center center no-repeat, 
                 url('../images/pattern-hills.svg') right bottom no-repeat,
                 var(--mostly-black-blue);
-                background-size: cover cover;
+                background-size: cover cover; */
+
+    background-image: url('../images/pattern-hills.svg'), 
+                      url('../images/bg-stars.svg'), 
+                      linear-gradient(to bottom, 
+                            var(--mostly-black-blue), 
+                            var(--Very-dark-blue),
+                            hsl(271, 23%, 18%, 1));
+    background-repeat: no-repeat, no-repeat;
+    background-position: 87% 95%, top;
+    background-size: 250%, auto, auto;
 }
 
 .hidden {
