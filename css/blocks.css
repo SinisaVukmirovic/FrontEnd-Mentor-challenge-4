@@ -14,17 +14,46 @@ main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
+        margin: 4rem 0 10rem;
+        font-weight: 700;
     }
         section .card {
             display: grid;
             place-items: center;
         }
         .card .numb {
-            padding: 1rem;
             background: linear-gradient(to bottom, 
-                var(--Very-dark-blue) 50%, 
+                hsl(236, 28%, 20%) 50%, 
                 var(--Dark-desaturated-blue) 50%);
+            color: var(--Soft-red);
+
+            padding: .75rem 1rem;
+            width: 70px;
+            height: 70px;
+            border-radius: .5rem;
+            display: grid;
+            place-items: center;
+            position: relative;
         }
+            .numb::before,
+            .numb::after {
+                content: '';
+                background-color: var(--mostly-black-blue);
+                width: .25rem;
+                height: .5rem;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .numb::before { 
+                left: 0;
+                border-radius: 0 50% 50% 0;
+            }
+            .numb::after {
+                right: 0;
+                border-radius: 50% 0 0 50%;
+            }
+
         .numb span {
             font-size: 2.5rem;
         }
@@ -32,7 +61,7 @@ main {
             color: var(--Grayish-blue);
             font-size: .5rem;
             letter-spacing: 3px;
-            margin-top: .5rem;
+            margin-top: 1rem;
         }
 
 footer {
@@ -43,5 +72,18 @@ footer {
 }
     footer .links {
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
+        margin-bottom: 1rem;
     }
+        .links .icon:hover svg {
+            cursor: pointer;
+        }
+        .links .icon svg path {
+            transition: fill 300ms ease-in-out;
+        }
+
+        .links .icon:hover svg path,
+        .links .icon:active svg path,
+        .links .icon:target svg path {
+            fill: lime;
+        }
