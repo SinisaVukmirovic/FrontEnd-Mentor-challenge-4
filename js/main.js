@@ -13,6 +13,7 @@ const interval = setInterval(() => {
     const mins = Math.floor((countdownTime % (1000 * 60 * 60)) / (1000 * 60));
     const secs = Math.floor((countdownTime % (1000 * 60)) / 1000);
     // console.log(days, hours, mins, secs);
+
     daysCounter.textContent = `${days}`;
     hoursCounter.textContent = `${hours}`;
     minsCounter.textContent = `${mins}`;
