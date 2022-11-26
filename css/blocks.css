@@ -84,7 +84,13 @@ main {
 
         .numb span {
             font-size: 2.5rem;
+            opacity: 0;
+            animation: hideAtStart 500ms 1s forwards;
         }
+            @keyframes hideAtStart {
+                to { opacity: 1; }
+            }
+
         .card p {
             color: var(--Grayish-blue);
             font-size: .5rem;
