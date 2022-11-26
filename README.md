@@ -49,7 +49,7 @@ Users should be able to:
 
 - Learned how to have multiple background images + linear linear gradient
 
-<code><pre>
+<pre><code>
   body {
     background-image: url('../images/pattern-hills.svg'), 
                       url('../images/bg-stars.svg'), 
@@ -61,11 +61,11 @@ Users should be able to:
     background-position: 87% 95%, top;
     background-size: 250%, auto, auto;
   }
-</pre></code>
+</code></pre>
 
 - Learned how to change color of various parts of the SVG when hovered
 
-<code><pre>
+<pre><code>
   #Main svg:hover {
       fill: #fce57e;
   }
@@ -81,7 +81,7 @@ Users should be able to:
   #Main svg:hover circle {
       fill: #fce57e;
   }
-</pre></code>
+</code></pre>
 
 - JS Date() object and methods on it
 
