@@ -93,6 +93,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   }
 </pre></code>
 
+- JS Date() object and methods on it
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -103,6 +105,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Multiple background images](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds) - This helped me for using multiple background images with linear gradient. 
 - [Changing color of SVG](https://stackoverflow.com/questions/19157122/css-change-fill-color-on-hover-svg-path) - How to change color of different parts of SVG when hovered
+- [JS Date() object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) - Methods on JS Date() object
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

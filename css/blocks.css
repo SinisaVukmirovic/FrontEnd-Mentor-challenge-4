@@ -85,7 +85,7 @@ main {
         .numb span {
             font-size: 2.5rem;
             opacity: 0;
-            animation: hideAtStart 500ms 1s forwards;
+            animation: hideAtStart 1s 1s forwards;
         }
             @keyframes hideAtStart {
                 to { opacity: 1; }
