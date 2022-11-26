@@ -62,7 +62,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Learned how to have multiple background images + linear linear gradient
+- Learned how to have multiple background images + linear linear gradient
+
 <code><pre>
   body {
     background-image: url('../images/pattern-hills.svg'), 
@@ -75,7 +76,27 @@ Learned how to have multiple background images + linear linear gradient
     background-position: 87% 95%, top;
     background-size: 250%, auto, auto;
   }
-</code></pre>
+</pre></code>
+
+- Learned how to change color of various parts of the SVG when hovered
+
+<code><pre>
+  #Main svg:hover {
+      fill: #fce57e;
+  }
+
+  #Main svg:hover path {
+      fill: #fce57e;
+  }
+
+  #Main svg:hover plygon {
+      fill: #fce57e;
+  }
+
+  #Main svg:hover circle {
+      fill: #fce57e;
+  }
+</pre></code>
 
 ### Continued development
 
@@ -85,8 +106,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds) - This helped me for using multiple background images with linear gradient. 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Multiple background images](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds) - This helped me for using multiple background images with linear gradient. 
+- [Change color of SVG](https://stackoverflow.com/questions/19157122/css-change-fill-color-on-hover-svg-path) - How to change color of different parts of SVG when hovered
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

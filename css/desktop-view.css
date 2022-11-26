@@ -1,0 +1,35 @@
+@media (min-width: 1440px) {
+    body {
+        background-position: bottom, top;
+        background-size: 100%, auto, auto;
+    }
+
+    main section {
+        gap: 2rem;
+        margin: 6rem 0 10rem;
+    }
+
+    .card .numb {
+        padding: 1rem 1.5rem;
+        width: 150px;
+        /* height: unset; */
+    }
+
+    .numb span {
+        font-size: 4.45rem;
+    }
+
+    .card p {
+        font-size: .85rem;
+        letter-spacing: 5px;
+        margin-top: 1.5rem;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    footer .links {
+        margin-bottom: 2rem;
+    }
+}
