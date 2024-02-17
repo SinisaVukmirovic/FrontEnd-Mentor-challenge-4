@@ -40,6 +40,8 @@ main {
             place-items: center;
         }
         .card .numb {
+            font-variant-numeric: tabular-nums;
+            
             background: linear-gradient(to bottom, 
                 hsl(234, 26%, 21%) 50%, 
                 var(--Dark-desaturated-blue) 50%);

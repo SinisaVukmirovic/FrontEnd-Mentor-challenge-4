@@ -1,6 +1,6 @@
 import { daysCounter, hoursCounter, minsCounter, secsCounter } from './DOMelems.js';
 // const startCounterFrom = new Date("Nov 26, 2022 15:12:39").getTime();
-const startCounterFrom = new Date("Dec 10, 2022 14:39:59").getTime();
+const startCounterFrom = new Date("May 10, 2024 14:39:59").getTime();
 const tickEverySec = 1000;
 
 const interval = setInterval(() => {
